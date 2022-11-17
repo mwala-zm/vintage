@@ -1,30 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
 
-body {font-family: Roboto, "Helvetica Neue", sans-serif;
+html { 
+    background: url(./assets/hero.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.hero-section h2{
-    font-size: medium;
-    color: #b1b1b1;
-    text-align: center;
-}
-.nav ul{
-    list-style: none;
+
+nav{
     position: absolute;
-    right: 0;
-}
+    height: 70px;
+    left: 920px;
+    right: 240px;
+    top: 0px;
+    padding-top: 38px;
 
-.nav ul li{
-    display: inline-block;
+    font-family: 'Neue Power Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
     text-align: center;
-    justify-content: space-between;
-    border: 2px;
-    /* width: 80%; */
-    height: 90px;
-    padding: 20px;
-    
+    list-style: none;
 }
 
-.nav ul li a{
+nav a{
+    color: #FFFFFF;
     text-decoration: none;
+    padding: 20px;
+}
+
+h1 a{
+    font-family: 'Neue Power Trial';
+    font-weight: bold;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 60px;    
+    position: absolute;
+    height: 70px;
+    left: 19px;
+    right: 983px;
+    top: 0px;
+    
 }
