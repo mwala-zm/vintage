@@ -32,6 +32,12 @@ nav a{
     color: #FFFFFF;
     text-decoration: none;
     padding: 20px;
+    border: 23px;
+}
+
+nav a:hover{
+    color: rgb(0, 124, 128);
+    
 }
 
 h1 a{
