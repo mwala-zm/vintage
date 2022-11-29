@@ -8,7 +8,6 @@ html {
     background-size: cover;
 }
 
-
 nav{
     position: absolute;
     height: 70px;
@@ -39,10 +38,14 @@ nav a:hover{
     color: rgb(0, 124, 128);
     
 }
+nav a::after{
+    border: 2px;
+}
 
 h1 a{
     font-family: 'Neue Power Trial';
     font-weight: bold;
+    text-decoration: none;
     font-size: 50px;
     align-items: center;
     text-align: center;
@@ -52,6 +55,5 @@ h1 a{
     height: 70px;
     left: 19px;
     right: 983px;
-    top: 0px;
-    
+    top: 0px; 
 }
